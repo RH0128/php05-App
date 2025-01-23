@@ -10,7 +10,7 @@
 - 1.データベース接続設定を定義
 - 2.HTML内にPHPを埋め込んで、データベースからのデータを取得し、selectタグ内の選択肢を動的に生成します。
 - 3.データベースからconfidence_levelsテーブルのデータを取得し、$confidence_levels配列に格納
-- 4.selectボックスの中にPHPのforeachループを使って、動的に<option>タグを生成（optionタグのvalue属性にはidがセットされており、ユーザーにはlevelが表示されるようになっているため、送信されるのはoptionのvalueの値（つまりid）だが、ユーザーに表示されるのは$level['level']）
+- 4.selectボックスの中にPHPのforeachループを使って、動的に<option>タグを生成（optionタグのvalue属性にはidがセットされており、送信されるのはoptionのvalueの値（つまりid）だが、ユーザーに表示されるのは$level['level']）
 ```
  // ステータスレベル取得クエリ
 $gs_confidencelevels_table = [
