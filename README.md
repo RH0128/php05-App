@@ -20,11 +20,13 @@ $gs_confidencelevels_table = [
 ];
 ?>
 ```
-```<select name="confidence_level_id" id="confidence_level_id" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+```
+<select name="confidence_level_id" id="confidence_level_id" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
      <?php foreach ($gs_confidencelevels_table as $level): ?>
           <option value="<?= $level['id'] ?>"><?= $level['level'] ?></option>
      <?php endforeach; ?>
- </select> ```
+ </select>
+```
 
 ## 難しかった点・次回トライしたいこと
 - 当たり前なのだが、データベースを使用したいときに前もってデータベースを読み込んでおくというのを忘れがち（HTML内（index.php）にPHPを埋め込んでデータベースからのデータを取得しようとしたが何回トライしても失敗し、よく考えたらそもそもデータベースを読み込んでない...と気付いた）
