@@ -2,7 +2,7 @@
 
 ## 説明（40文字程度）
 - 有馬記念の予想のメモを蓄積します。
-- 前回のコードをそのまま活かし、自信レベルのTable（gs_confidencelevel_table）を作成し、元々のTable（gs_bm_table）と結合させることで、Table結合のおさらいをした。
+- 前回のコードをそのまま活かし、予想自信レベルのTable（gs_confidencelevel_table）を作成し、元々のTable（gs_bm_table）と結合させることで、Table結合のおさらいをした。
 
 ## 工夫した点・こだわった点
 - Tailwind CSSを使用して作成。
